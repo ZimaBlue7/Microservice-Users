@@ -6,7 +6,8 @@
   "type":"module",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
